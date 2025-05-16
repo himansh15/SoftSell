@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@theme {
+  --bg-main: #fff;
+  --text-main: #1a202c;
+  --primary: #166534;
+  --button-radius: 0.5rem;
+
+  --dark-bg-main: #0f172a;
+  --dark-text-main: #f3f4f6;
+  --dark-primary: #22d3ee;
+}
+html.dark {
+  --bg-main: var(--dark-bg-main);
+  --text-main: var(--dark-text-main);
+  --primary: var(--dark-primary);
+}
+
+:root {
+  --color-surface: #fff;
+  --color-accent: #6365f1;
+  --color-button-text: #fff;
+  --color-text-base: #23243a;
+  --color-border-subtle: #e5e7eb;
+  --color-input-bg: #f3f4f6;
+  --color-chat-bot-bg: #f3f4f6;
+  --color-chat-input-bg: #f9fafb;
+  --color-suggestion-bg: #e8faf3;
+  --color-suggestion-text: #065f46;
+}
+.dark {
+  --color-surface: #191c24;
+  --color-accent: #8b5cf6;
+  --color-button-text: #fff;
+  --color-text-base: #f6f7fa;
+  --color-border-subtle: #314155;
+  --color-input-bg: #23243a;
+  --color-chat-bot-bg: #23243a;
+  --color-chat-input-bg: #181c26;
+  --color-suggestion-bg: #224c41;
+  --color-suggestion-text: #6ee7b7;
+}
