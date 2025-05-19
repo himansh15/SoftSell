@@ -6,7 +6,7 @@ A modern, fully responsive single-page website built with React (Vite) and Tailw
 
 ## 🌐 Live Demo
 
-[🔗 View Live on Github](https://github.com/himansh15/SoftSell)
+[🔗 View Live on Github](https://himansh15.github.io/SoftSell/)
 
 ---
 
